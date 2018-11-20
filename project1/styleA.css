@@ -1,0 +1,30 @@
+div {
+	position: relative;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #687291;
+	margin: 10px;
+	font-size: 40px;
+	font-style: "Tahoma";
+}
+
+.style1 {
+	background-color: #dfe1e7
+}
+
+.style2 {
+	background-color: #eeeff2
+}
+
+.style3 {
+	background-color: #687291;
+	border-style: solid;
+	border-width: 4px;
+	border-color: black;
+	line-height: 100px;
+}
+
