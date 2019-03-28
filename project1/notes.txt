@@ -1,0 +1,5 @@
+1.To horizontally center a block element (like <div>), use margin: auto;
+
+2.Center Vertically - Using line-height
+Another trick is to use the line-height property with a value that is equal to the height property.
+

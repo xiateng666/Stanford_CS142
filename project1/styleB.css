@@ -1,8 +1,11 @@
 div {
+	/*lined up horizontally in the top left corner*/
 	display: inline-block;
-	width: 100px;
+	/* Each box is 100x150 pixels (color: #eeeff2), with a 10px dotted line (color: #D0D0FF) on the left. 
+	 * Boxes are separated by 10 pixels of space.*/
+	width: 90px;
 	height: 150px;
-	margin: 10px;
+	margin: 5px;
 	font-size: 40px;
 	font-style: "Tahoma";
 	border-left-style: dotted;
@@ -11,13 +14,19 @@ div {
 	background-color: #eeeff2;
 	padding-left: 10px;
 }
-
+/* he last box is positioned in the bottom right corner of 
+ * the window and stays there even when the window resizes
+ */
 .style3 {
-	position: absolute;
+	margin:10px;
+	position: fixed;
 	bottom: 0;
 	right: 0;
 }
 
+/* When hovering over an box, the cursor changes to a hand 
+ * and the box and font colors change (colors: yellow, goldenrod, respectively).
+ */
 div:hover {
 	background-color: yellow;
 	color: goldenrod
